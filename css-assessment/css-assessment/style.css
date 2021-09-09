@@ -81,5 +81,15 @@ a {
 }
 
 .demoBtn {
+  border-radius: 0.8rem;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 0.8rem 2rem;
   border-radius: 0.75rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  color: #bbb;
+  font-size: 1rem;
 }
