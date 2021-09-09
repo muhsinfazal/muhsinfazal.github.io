@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 2rem 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 2.5rem;
+}
+
+.nav-btns a {
+  margin-left: 1.5rem;
+}
+
+.greenBtn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #8ee5d1;
+  border-radius: 3rem;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  padding: 3rem 0;
+}
+
+.banner-img {
+  display: inline-block;
+  width: 40%;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+}
+
+.banner p {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  width: 75%;
+}
+
+.demo {
+  background-color: #f4f7fa;
+  display: flex;
+  padding: 3rem;
+}
+
+.demoBtn {
+  border-radius: 0.75rem;
+}
