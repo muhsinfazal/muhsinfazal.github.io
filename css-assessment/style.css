@@ -62,11 +62,11 @@ a {
   width: 40%;
 }
 
-.banner-text h1 {
+.container h1 {
   font-size: 3rem;
 }
 
-.banner p {
+.container p {
   font-weight: lighter;
   font-size: 1.5rem;
   width: 75%;
@@ -76,8 +76,87 @@ a {
   background-color: #f4f7fa;
   display: flex;
   padding: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .demoBtn {
+  border-radius: 0.8rem;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 0.8rem 2rem;
   border-radius: 0.75rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  color: #bbb;
+  font-size: 1rem;
+}
+
+.container h2 {
+  font-size: 2.3rem;
+}
+
+.secondbanner-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.secondbanner-text p {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background-color: #f4f7fa;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: 2rem;
+}
+
+.card p {
+  font-size: 1.25rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+.card h2 {
+  color: turquoise;
+}
+
+.footer {
+  background-color: #f4f7fa;
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about {
+  width: 40%;
+  text-align: left;
+}
+
+.contact {
+  text-align: right;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+}
+
+.footer p {
+  font-weight: lighter;
 }
