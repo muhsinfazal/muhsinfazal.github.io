@@ -139,7 +139,7 @@ input[type="text"] {
 .footer {
   background-color: #f4f7fa;
   display: flex;
-  padding: 3rem;
+  padding: 2rem 8rem;
   align-items: center;
   justify-content: space-between;
 }
